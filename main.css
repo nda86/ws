@@ -1,0 +1,39 @@
+
+*,*:after, *:before{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	width: 800px;
+	height: 500px;
+}
+.main{
+	background: #1BB4A0;
+	font-family: arial;
+	font-size: 2.5em;
+
+}
+
+.side{
+	background: #ccc;
+	font-family: "Times New Roman";
+}
+
+#btn{
+	display: block;
+	width: 100px;
+	height: 50px;
+	border: 1px solid gray;
+	background: #000;
+	color: orange;
+	text-align: center;
+	padding: 2px;
+	box-sizing: border-box;
+	cursor: pointer;
+
+}
+
+#btn:hover{
+	color: #000;
+	background: orange;
+}
